@@ -15,14 +15,14 @@ TTCP is a benchmarking tool for determining TCP and UDP performance
 between 2 systems.
 
 %description -l pl
-TTCP jest narzêdziem sprawdzaj±cym wydajno¶æ po³±czeñ TCP i UDP pomiêdzy
-dwoma systemami
+TTCP jest narzêdziem sprawdzaj±cym wydajno¶æ po³±czeñ TCP i UDP
+pomiêdzy dwoma systemami
 
 %prep
 %setup -q -n %{name}
 
 %build
-%{__make} CFLAGS="$RPM_OPT_FLAGS" ttcp
+%{__make} CFLAGS="%{!?debug:$RPM_OPT_FLAGS}%{?debug:-O0 -g}" ttcp
 
 %install
 rm -rf $RPM_BUILD_ROOT
