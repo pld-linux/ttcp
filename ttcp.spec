@@ -22,7 +22,7 @@ pomiêdzy dwoma systemami
 %setup -q -n %{name}
 
 %build
-%{__make} CFLAGS="%{!?debug:$RPM_OPT_FLAGS}%{?debug:-O0 -g}" ttcp
+%{__make} CFLAGS="%{rpmcflags}" ttcp
 
 %install
 rm -rf $RPM_BUILD_ROOT
