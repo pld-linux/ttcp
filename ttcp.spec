@@ -3,7 +3,7 @@ Summary(pl):	Narzêdzie do monitorowania przepustowo¶ci sieci
 Name:		ttcp
 Version:	1.12
 Release:	1
-License:	public domain
+License:	Public Domain
 Group:		Networking
 Source0:	%{name}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
