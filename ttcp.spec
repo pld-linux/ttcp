@@ -6,6 +6,7 @@ Release:	1
 License:	Public Domain
 Group:		Networking
 Source0:	%{name}.tar.gz
+# Source0-md5:	698b5e97417d7552a6f881c0e7d4ff5d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
