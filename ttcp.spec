@@ -24,7 +24,9 @@ pomiêdzy dwoma systemami.
 
 %build
 %{__make} ttcp \
-	CFLAGS="%{rpmcflags}"
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
