@@ -2,7 +2,7 @@ Summary:	Network bandwidth measurement tool
 Summary(pl.UTF-8):	Narzędzie do monitorowania przepustowości sieci
 Name:		ttcp
 Version:	1.12
-Release:	2
+Release:	3
 License:	Public Domain
 Group:		Networking
 # original sources at http://ftp.arl.mil/ftp/pub/ttcp/, maybe modified here?
