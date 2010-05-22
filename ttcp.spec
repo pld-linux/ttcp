@@ -4,7 +4,7 @@ Name:		ttcp
 Version:	1.12
 Release:	3
 License:	Public Domain
-Group:		Networking
+Group:		Networking/Utilities
 # original sources at http://ftp.arl.mil/ftp/pub/ttcp/, maybe modified here?
 Source0:	%{name}.tar.gz
 # Source0-md5:	698b5e97417d7552a6f881c0e7d4ff5d
